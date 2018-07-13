@@ -1,6 +1,6 @@
 mapserver:
-  image: kartoza/mapserver
+  image: mapserver
   volumes:
-    - ./web/:/map
+    - ./map/:/map
   ports:
     - "8182:80"
